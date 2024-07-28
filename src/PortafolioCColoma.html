@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portafolio</title>
+	<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+	<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="../assets/js/jquery-3.7.1.slim.min.js"></script>
+
+	<section class="inicio" id="inicio">
+		<div class="contenido-seccion">
+			<header>
+				<div class="nav-bar" onclick="mostrarOcultarMenu()">
+					<i class="fa-solid fa-bars"></i>
+				</div>
+				<nav id="nav" class="nav">
+					<a href="#inicio">Inicio</a>
+					<a href="#sobremi">Sobre mí</a>
+					<a href="#habilidades">Habilidades</a>
+					<a href="#resumen">Resumen</a>
+					<a href="#contacto">Contacto</a>
+				</nav>
+				<div class="logo">
+					C<span class="color">C</span>C
+				</div>
+			</header>
+			<div class="info">
+				<h1>Christian Coloma Campos</h1>
+				<h2>Ingeniero Comercial, Desarrollador FullStack, Project Manager</h2>
+			</div>
+			<div class="foto">
+				<img src="../assets/img/Foto CColoma2.jpg" alt="">
+			</div>
+		</div>
+	</section>
+
+	<!-- SECCION SOBRE MI -->
+	<section class="sobremi" id="sobremi">
+		<div class="contenido-seccion">
+			<h2 class="titulo-seccion">Sobre Mi</h2>
+			<h3>Perfil Profesional</h3>
+
+			<p class="especial">Me dedico a evaluar y perfeccionar procesos empresariales, realizando reingeniería y planes de mejora continua.</p>
+			<p>Poseo más de 15 años de experiencia cómo lider de equipos, con experiencia en inteligencia de negocios y desarrollo de estrategias comerciales, experiencia que hoy se ve plasmada en el desarrollo de páginas web altamente orientadas al mercado objetivo y realidad competitiva de cada cliente</p>
+
+			<div class="fila">
+				<div class="col">
+					<i class="fa-solid fa-user"></i>
+					<span class="titulo-detalle">Perfil</span>
+					<p>Ingeniero Comercial y Desarrollador FullStack con experiencia en gestión comercial, administración de proyectos, programación Front End y Back End y liderazgo de equipos. English proficiency C2.</p>
+				</div>
+				<div class="col">
+					<i class="fa-solid fa-location-pin"></i>
+					<span class="titulo-detalle">Servicios</span>
+					<p>Desarrollo de páginas web para todo tipo de empresas. Creamos tu imagen desde cero, preocupándonos de brindarte una plataforma amigable para el usuario y atractiva para tus clientes.</p>
+				</div>
+				<div class="col">
+					<i class="fa-solid fa-flag"></i>
+					<span class="titulo-detalle">Ubicación</span>
+					<p>Puedes contactarme a través de mi página web. También podemos concertar una reunión telemática o presencial, mi oficina se encuentra ubicada en el corazón de Temuco a pasos de la plaza de armas.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- SECCION HABILIDADES -->
+	<section class="habilidades" id="habilidades">
+		<div class="contenido-seccion">
+			<h2 class="titulo-seccion">Mis habilidades y proyectos</h2>
+			<h3>Me especializo en</h3>
+			<!-- mediante javascript luego se generarán barras con clase e a todas -->
+			<div class="fila">
+				<div class="col">
+					<span>HTML/CSS</span>
+					<div class="cont-barra">
+						<div class="barra" id="html">
+							
+						</div>
+						<span>85%</span>
+					</div>
+				</div>
+				<div class="col">
+					<span>JAVASCRIPT</span>
+					<div class="cont-barra">
+						<div class="barra" id="javascript">
+						   
+						</div>
+						<span>70%</span>
+					</div>
+				</div>
+			</div>
+			<div class="fila">
+				<div class="col">
+					<span>WORDPRESS</span>
+					<div class="cont-barra">
+						<div class="barra" id="wordpress">
+						   
+						</div>
+						<span>90%</span>
+					</div>
+				</div>
+				<div class="col">
+					<span>PHOTOSHOP</span>
+					<div class="cont-barra">
+						<div class="barra" id="photoshop">
+						   
+						</div>
+						<span>85%</span>
+					</div>
+				</div>
+			</div>
+			<div class="fila">
+				<div class="col">
+					<span>SCRUM</span>
+					<div class="cont-barra">
+						<div class="barra" id="scrum">
+						   
+						</div>
+						<span>95%</span>
+					</div>
+				</div>
+				<div class="col">
+					<span>JAVA</span>
+					<div class="cont-barra">
+						<div class="barra" id="java">
+						   
+						</div>
+						<span>75%</span>
+					</div>
+				</div>
+			</div>
+			<br>
+			<h1>Conoce mis proyectos!</h1>
+			<div class="fila">
+				<div class="col">
+					<i class="fa-solid fa-user"></i>
+					<h4 class="titulo-detalle">Perfil GitHub</h4>
+					<p>Página con el código de proyectos desarrollados, conóceme en: </p>
+					<a href="https://github.com/CColomaC?tab=repositories" class="info-contacto">https://github.com/CColomaC?tab=repositories</a>
+
+				</div>
+				<div class="col">
+					<i class="fa-solid fa-location-pin"></i>
+					<h4 class="titulo-detalle">Perfil Behance</h4>
+					<p>Página donde podrás ver cómo lucen mis proyectos, conóceme en:</p>
+					<a href="https://www.behance.net/christcolomac" class="info-contacto">https://www.behance.net/christcolomac</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- SECCION RESUMEN -->
+	<section class="resumen" id="resumen">
+		<div class="contenido-seccion">
+			<h2 class="titulo-seccion">Resumen</h2>
+			<h3>Formación y experiencia</h3>
+			<div class="info">
+				<div class="col">
+					<span class="titulo">Educación</span>
+					<table>
+						<tr>
+							<td class="datos">
+								<h3>2012 - 2017</h3>
+							</td>
+							<td rowspan="2" class="descripcion">
+								Ingeniero Comercial con mención en Control de Gestión. Licenciado en Ciencias de la Administración.
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h4>Ingeniero Comercial</h4>
+								<p>Universidad Arturo Prat</p>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td class="datos">
+								<h3>2018 - 2020</h3>
+							</td>
+							<td rowspan="2" class="descripcion">
+								Control de gestión financiera y producción Industrial. Reingeniería de procesos.
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h4>Magister en Control de Gestión</h4>
+								<p>Universidad Autónoma de Chile</p>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td class="datos">
+								<h3>2021 - 2022</h3>
+							</td>
+							<td rowspan="2" class="descripcion">
+								Magister en Administración de Empresas. Gestión estratégica de Negocios.
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h4>MBA Executive</h4>
+								<p>Universidad Autónoma de Chile</p>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td class="datos">
+								<h3>2022 - 2022</h3>
+							</td>
+							<td rowspan="2" class="descripcion">
+								Desarrollo y mantenimiento de aplicaciones FullStack Java. Crear aplicaciones web con Spring framework.
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h4>Desarrollador FullStack</h4>
+								<p>Aiep y SENCE</p>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="col">
+					<span class="titulo">Experiencia Laboral</span>
+					<table>
+						<tr>
+							<td class="datos">
+								<h3>3 Años</h3>
+							</td>
+							<td rowspan="2" class="descripcion">
+								Supervisar ejecutivos comerciales y plataformas de atención en región de La Araucanía.
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h4>Caja La Araucana</h4>
+								<p>Supervisor Comercial</p>
+							   
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td class="datos">
+								<h3>5 Años</h3>
+							</td>
+							<td rowspan="2" class="descripcion">
+								Gerenciar y liderar la red de Sucursales de la Zona Sur desde Chillán a Puerto Montt.
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h4>Caja Gabriela Mistral</h4>
+								<p>Subgerente Zonal Sur</p>
+							   
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td class="datos">
+								<h3>2 Años</h3>
+							</td>
+							<td rowspan="2" class="descripcion">
+								Liderar las acciones de incorporación de empresas y servicio al cliente en la región de La Araucanía.
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h4>Caja Los Héroes</h4>
+								<p>Jefe Zonal Empresas</p>
+							   
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td class="datos">
+								<h3>1 Año</h3>
+							</td>
+							<td rowspan="2" class="descripcion">
+								Supervisar ejecutivos comerciales. Liderar la consecusión de todos los objetivos y Kpis definidos por la compañía.
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h4>AFP Habitat</h4>
+								<p>Supervisor Comercial</p>
+							   
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td class="datos">
+								<h3>Actualidad</h3>
+							</td>
+							<td rowspan="2" class="descripcion">
+								Desarrollar, construir y mantener piezas de software, crear aplicaciones web y operar base de datos para su consulta, aplicando buenas prácticas de programación tendientes a lograr un producto con niveles de calidad acordes a las necesidades de la industria.
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h4>Profesional independiente</h4>
+								<p>Desarrollador FullStack</p>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- SECCION CONTACTO -->
+	<section class="contacto" id="contacto">
+		<div class="contenido-seccion">
+			<h2 class="titulo-seccion">Contacto</h2>
+			<h3>Ponte en contacto ahora mismo!</h3>
+			<h4 >Complete su información.</h4>
+
+				<form name="formulario" id="formulario" action="../src/confirmación.html" method="">
+			
+					<div class="formulario">
+						<fieldset>
+							<legend>Sus datos de contacto:</legend>
+							<label class="etiqueta" for="nombre">Nombre:</label>
+							<input type="text" name="nombre" id="nombre" required maxlength="25" pattern="[a-z A-Z]+" placeholder="Ej.: Juan Pérez">
+							<br>
+							<label class="etiqueta" for="solicitud">Tipo de solicitud:</label>
+							<select name="solicitud" id="solicitud" required>
+								<option value="" >Seleccione</option>
+								<option value="D" >Desarrollo página</option>
+								<option value="M" >Mantenimiento</option>
+								<option value="O" >Otro</option>
+							</select>
+							<br>
+							<label class="etiqueta" for="email">Email:</label>
+							<input type="email" name="email" id="email" required maxlength="30" placeholder="Ej.: abc123@de45.com">
+							<br>        
+							<label class="etiqueta" for="celular">Celular: +56</label>
+							<input type="number" name="celular" id="celular" required min="111111111" max="999999999" placeholder="123456789">
+							<br>
+							<label class="etiqueta" for="ciudad">Ciudad:</label>
+							<input type="text" name="ciudad" id="ciudad" required maxlength="20" pattern="[a-z A-Z]+" placeholder="Ej.: Santiago">
+							<br>
+						</fieldset>
+						<br>          
+						<input type="submit" value="Contáctanos!" class="boton">
+					</div>
+				</form>
+			<div class="fila">
+				<div class="col">
+					<h2>
+						<i class="fa-solid fa-phone"></i> Teléfono
+					</h2>
+					<span class="info-contacto">+56 9 82738798</span>
+				</div>
+				<div class="col">
+					<h2>
+						<i class="fa-solid fa-envelope"></i> Correo
+					</h2>
+					<span class="info-contacto">ccolomacampos@gmail.com</span>
+				</div>
+				<div class="col">
+					<h2>
+						<i class="fa-solid fa-globe"></i> Página Web
+					</h2>
+					<a href="https://www.linkedin.com/in/christian-coloma/" class="info-contacto">https://www.linkedin.com/in/christian-coloma/</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="../assets/js/main.js"></script>
+	
+</body>
+</html>
